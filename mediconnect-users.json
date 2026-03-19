@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1773468772151",
+    "username": "kani",
+    "email": "kani@gmail.com",
+    "password": "$2b$10$VJRgrFgL3bXYM/fXIm9lRu1MQxgTgTu5zyVtsoJArbBC6sMx9TGxW",
+    "phone": "9632587410",
+    "role": "patient",
+    "guardian_id": "1773473938079"
+  },
+  {
+    "id": "1773473938079",
+    "username": "sindhu",
+    "email": "sindhu@gmai.com",
+    "password": "$2b$10$PQ7CcgQFthO9n..i0Khg.uzx5iFwYAtMoqFVPOSjA6PH8qT7cghua",
+    "phone": "6541239870",
+    "role": "guardian",
+    "guardian_id": null
+  },
+  {
+    "id": "1773478050945",
+    "username": "riya",
+    "email": "riya@gmail.com",
+    "password": "$2b$10$pVaCr0eMY4zduQKHHehbtOZnJ4OUOyBq2N4NchgLlnsAv.vRmO6W2",
+    "phone": "7894561230",
+    "role": "patient",
+    "guardian_id": "1773569042725"
+  },
+  {
+    "id": "1773478096922",
+    "username": "Teena",
+    "password": "$2b$10$LWjV84FmUAoZPVFdayDVpORbOxzsvEqzevFKw/FmM9i1SAQnnTm1y",
+    "phone": "7708339126",
+    "role": "guardian",
+    "guardian_id": null
+  },
+  {
+    "id": "1773509023654",
+    "username": "john",
+    "password": "$2b$10$GN6UH1d5ScJCAaxQDxHWtOW.2FQ2cm.xF4Voaoc79lWesu9L8PvHC",
+    "phone": "7412589630",
+    "role": "doctor",
+    "guardian_id": null
+  },
+  {
+    "id": "1773567957183",
+    "username": "Priya",
+    "email": "priya@gmail.com",
+    "password": "$2b$10$VIy6YyezzMioK24ETrIjVuXk0vJraJedZFKDSfTCIChMTnYZEtj2i",
+    "phone": "741085296",
+    "role": "guardian",
+    "guardian_id": null
+  },
+  {
+    "id": "1773569042725",
+    "username": "deena",
+    "email": "deena@gmail.com",
+    "password": "$2b$10$Orinb796xXTW1llYqYXycOTSTl5yUBm79CIDjs17eXYHjI7MRuQJW",
+    "phone": "9874563210",
+    "role": "guardian",
+    "guardian_id": null
+  }
+]

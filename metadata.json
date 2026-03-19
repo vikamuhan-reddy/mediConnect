@@ -1,0 +1,8 @@
+{
+  "name": "MediConnect Patient Portal",
+  "description": "A comprehensive telemedicine platform for patients to manage appointments, consultations, and prescriptions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
