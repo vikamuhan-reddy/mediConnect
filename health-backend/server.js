@@ -176,7 +176,7 @@ async function startServer() {
   const app = express();
 
 app.use(cors({
-  origin: '*', // for demo (later restrict)
+  origin: 'https://feel-races-judicial-the.trycloudflare.com', // for demo (later restrict)
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
@@ -224,7 +224,7 @@ app.use(cors({
 
       const hashedPassword = await bcrypt.hash(password, 10);
       const newUser = new User({
-        username,
+        username:username,
         email: email.toLowerCase(),
         password: hashedPassword,
         phone:    phone || null,

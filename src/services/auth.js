@@ -7,7 +7,7 @@ export const login = async (email, password) => {
 
 export const register = async (userData) => {
   const payload = {
-    name:           userData.username,
+    username:       userData.username,
     email:          userData.email,
     phone:          userData.phone,
     password:       userData.password,

@@ -62,7 +62,8 @@ export default function Signup() {
 
     setLoading(true);
     try {
-      await register(formData);
+      const { confirmPassword, ...payload} = formData;
+      await register(payload);
       setSuccess(true);
       setTimeout(() => navigate('/login'), 2000);
     } catch (err) {
