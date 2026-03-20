@@ -24,7 +24,7 @@ It records consultations, transcribes conversations, and generates AI-powered su
 
 <div align="center">
 
-[![Watch Demo](./MediConnect-Demo_Video.mp4)
+[![Watch Demo](https://youtu.be/jAWe01kGAuI)
 
 </div>
 
@@ -218,16 +218,3 @@ src/
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome! Feel free to fork and improve.
-
-```bash
-# Fork the repo, then:
-git checkout -b feature/your-feature
-git commit -m "Add your feature"
-git push origin feature/your-feature
-# Open a Pull Request
-```
-
----
