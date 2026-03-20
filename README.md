@@ -1,164 +1,158 @@
-🏥 MediConnect – AI-Powered Healthcare Consultation Platform
+# 🏥 MediConnect – AI-Powered Healthcare Consultation Platform
 
-🚀 Overview
+<div align="center">
 
-MediConnect is an AI-driven healthcare platform that transforms doctor-patient consultations into structured medical intelligence.
+![MediConnect Banner](https://img.shields.io/badge/MediConnect-AI%20Healthcare-emerald?style=for-the-badge&logo=heart&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
+![Groq](https://img.shields.io/badge/Groq-LLaMA%203.1-FF6B6B?style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 Overview
+
+**MediConnect** is an AI-driven healthcare platform that transforms doctor-patient consultations into structured medical intelligence.
 
 It records consultations, transcribes conversations, and generates AI-powered summaries to improve treatment continuity and decision-making.
 
 ---
 
-🎥 Demo Video
+## 🎥 Demo Video
 
-👉 Watch the full demo here:
-🔗 "Click to Watch Demo" (https://your-demo-video-link.com)
+<div align="center">
 
----
+[![Watch Demo](./MediConnect-Demo_Video.mp4)
 
-📸 Screenshots
-
-🎥 Video Consultation Interface
-
-"Video Consultation" (./screenshots/video-consultation.png)
+</div>
 
 ---
 
-🧠 AI Summary Generation
+## 📸 Screenshots(Sample)
 
-"AI Summary" (./screenshots/ai-summary.png)
+### 🎥 Video Consultation Interface
+![Video Consultation](./Doctor-Patient_interface.png)
 
----
+### 🧠 AI Summary Generation
+![AI Summary](./sample_AI_sum.png)
 
-📄 Generated Medical Summary
-
-"Medical Summary" (./screenshots/summary-output.png)
-
----
-
-📎 Prescription Upload
-
-"Prescription Upload" (./screenshots/prescription.png)
+### 📎 Prescription Upload
+![Prescription Upload](./sample_preb.png)
 
 ---
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Healthcare consultations often lack structured documentation, leading to:
 
-- Poor patient history tracking
-- Repeated diagnosis efforts
-- Miscommunication between visits
+- 📉 Poor patient history tracking
+- 🔁 Repeated diagnosis efforts
+- 📢 Miscommunication between visits
 
 ---
 
-💡 Solution
+## 💡 Solution
 
-MediConnect introduces a Consultation Intelligence Layer that:
+MediConnect introduces a **Consultation Intelligence Layer** that:
 
-- Captures consultation audio
-- Converts speech to text
-- Generates structured medical summaries
-- Stores and retrieves patient history
+- 🎙️ Captures consultation audio
+- 📝 Converts speech to text
+- 🧠 Generates structured medical summaries
+- 🗃️ Stores and retrieves patient history
 
 ---
 
-✨ Key Features
+## ✨ Key Features
 
-🎥 Video Consultation
-
+### 🎥 Video Consultation
 - Real-time doctor-patient interaction
 - Integrated chat system
 
-🎤 Audio Recording & Transcription
-
+### 🎤 Audio Recording & Transcription
 - Records consultation audio
-- Converts speech to text using Whisper
+- Converts speech to text using **Whisper**
 
-🧠 AI Medical Summarization
+### 🧠 AI Medical Summarization
+Extracts structured data including:
+- Chief Complaint
+- Symptoms
+- Diagnosis
+- Medications
+- Advice
+- Follow-up
 
-- Extracts:
-  - Chief Complaint
-  - Symptoms
-  - Diagnosis
-  - Medications
-  - Advice
-  - Follow-up
-
-📄 Consultation History
-
+### 📄 Consultation History
 - Persistent medical records
 - Easy retrieval for future visits
 
-📎 Prescription Management
-
+### 📎 Prescription Management
 - Upload and share prescriptions
 - Patient access to prescriptions
 
 ---
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 
-Frontend
-
-- React (Vite)
-- Tailwind CSS
-- Axios
-- Socket.IO
-
-Backend
-
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-
-AI & APIs
-
-- Groq API (LLaMA 3.1)
-- Whisper (Speech-to-Text)
+| Layer | Technologies |
+|-------|-------------|
+| **Frontend** | React (Vite), Tailwind CSS, Axios, Socket.IO |
+| **Backend** | Node.js, Express.js, MongoDB (Mongoose) |
+| **AI & APIs** | Groq API (LLaMA 3.1), Whisper (Speech-to-Text) |
 
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/mediconnect.git
-cd mediconnect
+```bash
+git clone https://github.com/vikamuhan-reddy/mediConnect.git
+cd mediConnect
+```
 
----
+### 2️⃣ Backend Setup
 
-2️⃣ Backend Setup
-
+```bash
 cd health-backend
 npm install
+```
 
-Create ".env":
+Create a `.env` file:
 
+```env
 PORT=3000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
 GROQ_API_KEY=your_groq_key
+```
 
-Run backend:
+Run the backend:
 
+```bash
 npm run dev
+```
 
----
+### 3️⃣ Frontend Setup
 
-3️⃣ Frontend Setup
-
+```bash
 cd ../
 npm install
 npm run dev
+```
 
-Create ".env.local":
+Create a `.env.local` file:
 
+```env
 VITE_BACKEND_URL=http://localhost:3000
+```
 
 ---
 
-🔄 Workflow
+## 🔄 Workflow
 
+```
 Doctor-Patient Call
         ↓
 Audio Recording
@@ -172,11 +166,13 @@ Structured JSON Output
 Stored in Database
         ↓
 Displayed in UI
+```
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 health-backend/
 ├── controllers/
 ├── models/
@@ -191,33 +187,28 @@ src/
 ├── services/
 ├── context/
 └── App.jsx
+```
 
 ---
 
-🔐 Authentication
+## 🔐 Authentication
 
 - JWT-based authentication
-- Role-based access (Doctor / Patient / Guardian)
+- Role-based access: **Doctor / Patient / Guardian**
 
 ---
 
-🌍 SDG Alignment
+## 🌍 SDG Alignment
 
-SDG 3: Good Health and Well-being
-
-Improves healthcare accessibility and continuity
-
-SDG 9: Industry, Innovation and Infrastructure
-
-Applies AI in healthcare
-
-SDG 10: Reduced Inequalities
-
-Supports remote consultations
+| SDG | Goal | How MediConnect Helps |
+|-----|------|-----------------------|
+| 🌱 SDG 3 | Good Health and Well-being | Improves healthcare accessibility and continuity |
+| 🏭 SDG 9 | Industry, Innovation and Infrastructure | Applies AI in healthcare |
+| ⚖️ SDG 10 | Reduced Inequalities | Supports remote consultations |
 
 ---
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - 📊 Patient timeline visualization
 - ⚠️ AI-powered health alerts
@@ -227,12 +218,16 @@ Supports remote consultations
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
-Pull requests are welcome. Feel free to fork and improve!
+Pull requests are welcome! Feel free to fork and improve.
+
+```bash
+# Fork the repo, then:
+git checkout -b feature/your-feature
+git commit -m "Add your feature"
+git push origin feature/your-feature
+# Open a Pull Request
+```
 
 ---
-
-👨‍💻 Author
-
-Built as part of an AI healthcare innovation project.
