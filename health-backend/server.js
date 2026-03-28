@@ -177,9 +177,19 @@ async function startServer() {
 
   const app = express();
 
+const allowedOrigins = [
+  "https://medi-connect-neon-nine.vercel.app",
+  "https://feel-races-judicial-the.trycloudflare.com"
+];
+
 app.use(cors({
-  origin: 'https://medi-connect-neon-nine.vercel.app', // for demo (later restrict)
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("CORS not allowed"));
+    }
+  },
   credentials: true
 }));
   app.use(express.json());
