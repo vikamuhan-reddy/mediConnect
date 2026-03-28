@@ -23,7 +23,7 @@ It records consultations, transcribes conversations, and generates AI-powered su
 ## 🎥 Demo Video
 
 <div align="center">
-
+Click in the image
 [![Curio Demo](./front_Interface.png)](https://youtu.be/TryiEVjrxSo)
 
 </div>
