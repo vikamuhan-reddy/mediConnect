@@ -178,7 +178,7 @@ async function startServer() {
   const app = express();
 
 app.use(cors({
-  origin: 'https://feel-races-judicial-the.trycloudflare.com', // for demo (later restrict)
+  origin: 'https://medi-connect-neon-nine.vercel.app', // for demo (later restrict)
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
