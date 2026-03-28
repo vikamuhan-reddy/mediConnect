@@ -17,7 +17,7 @@
 **MediConnect** is an AI-driven healthcare platform that transforms doctor-patient consultations into structured medical intelligence.
 
 It records consultations, transcribes conversations, and generates AI-powered summaries to improve treatment continuity and decision-making.
-
+🌐 Live App: medi-connect-neon-nine.vercel.app
 ---
 
 ## 🎥 Demo Video
@@ -99,56 +99,9 @@ Extracts structured data including:
 
 | Layer | Technologies |
 |-------|-------------|
-| **Frontend** | React (Vite), Tailwind CSS, Axios, Socket.IO |
-| **Backend** | Node.js, Express.js, MongoDB (Mongoose) |
+| **Frontend** | React (Vite), Tailwind CSS, Axios, Socket.IO,vercel |
+| **Backend** | Node.js, Express.js, MongoDB (Mongoose),render|
 | **AI & APIs** | Groq API (LLaMA 3.1), Whisper (Speech-to-Text) |
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/vikamuhan-reddy/mediConnect.git
-cd mediConnect
-```
-
-### 2️⃣ Backend Setup
-
-```bash
-cd health-backend
-npm install
-```
-
-Create a `.env` file:
-
-```env
-PORT=3000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
-GROQ_API_KEY=your_groq_key
-```
-
-Run the backend:
-
-```bash
-npm run dev
-```
-
-### 3️⃣ Frontend Setup
-
-```bash
-cd ../
-npm install
-npm run dev
-```
-
-Create a `.env.local` file:
-
-```env
-VITE_BACKEND_URL=http://localhost:3000
-```
 
 ---
 
