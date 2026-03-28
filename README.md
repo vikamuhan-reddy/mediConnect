@@ -17,6 +17,7 @@
 **MediConnect** is an AI-driven healthcare platform that transforms doctor-patient consultations into structured medical intelligence.
 
 It records consultations, transcribes conversations, and generates AI-powered summaries to improve treatment continuity and decision-making.
+
 🌐 Live App: medi-connect-neon-nine.vercel.app
 ---
 
