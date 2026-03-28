@@ -144,6 +144,8 @@ const doctors = [
   { id: '33', name: 'Dr. Grace Okonkwo',     specialization: 'General Physician',  experience: 5,  language: 'English, Igbo',       rating: 4.4, availability: 'Tue-Sun', fee: 65,  hospital: 'Community Health Centre',         photo: 'https://picsum.photos/seed/doc37/200/200', bio: 'Focused on preventive care and lifestyle medicine.' },
 ];
 
+
+
 // ── Helper: safe user object (strips password, normalises id/name) ─────────────
 const safeUser = (u) => ({
   id:             u._id.toString(),
@@ -181,6 +183,10 @@ app.use(cors({
   credentials: true
 }));
   app.use(express.json());
+
+  app.get("/health", (req, res) => {
+  res.send("OK");
+});
 
   // ── Ensure uploads directory exists ──────────────────────────────────────────
   if (!fs.existsSync('uploads')) fs.mkdirSync('uploads');
