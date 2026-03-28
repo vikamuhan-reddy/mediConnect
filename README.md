@@ -24,7 +24,7 @@ It records consultations, transcribes conversations, and generates AI-powered su
 
 <div align="center">
 
-[![Watch Demo](https://youtu.be/TryiEVjrxSo)
+[![Watch Demo](https://youtu.be/TryiEVjrxSo)]
 
 </div>
 
