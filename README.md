@@ -18,7 +18,7 @@
 
 It records consultations, transcribes conversations, and generates AI-powered summaries to improve treatment continuity and decision-making.
 
-[![Live App](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://medi-connect-neon-nine.vercel.app)
+🌐 Live App: [![Live App](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://medi-connect-neon-nine.vercel.app)
 
 ---
 
