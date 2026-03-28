@@ -19,6 +19,7 @@
 It records consultations, transcribes conversations, and generates AI-powered summaries to improve treatment continuity and decision-making.
 
 🌐 Live App: medi-connect-neon-nine.vercel.app
+
 ---
 
 ## 🎥 Demo Video
